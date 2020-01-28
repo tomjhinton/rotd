@@ -23,10 +23,8 @@ class Main extends React.Component{
 
   componentDidMount(){
 
-    // axios.get('/api/users')
-    //   .then(res => this.setState({users: res.data}))
-    // axios.get('/api/wallets')
-    //   .then(res => this.setState({wallets: res.data}))
+    axios.get('/api/records')
+      .then(res => this.setState({record: res.data}))
 
 
 

@@ -12,5 +12,7 @@ pony = "*"
 marshmallow = "*"
 textgenrnn = "*"
 tensorflow = "*"
+tensorflow-serving-api = "*"
+
 [requires]
 python_version = "3.7"
